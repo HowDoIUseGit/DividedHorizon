@@ -1,6 +1,24 @@
-.space_wrapper {
-  --info-text-border-color: rgb(132, 105, 255);
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.solar_vars {
+  --info-text-border-color: rgb(55, 47, 94);
   --info-text-font-color: rgb(233, 233, 233);
+}
+
+#headline_solarsystem {
+  position: absolute;
+  z-index: 1;
+  color: var(--info-text-font-color);
+  letter-spacing: 0.7px;
+  margin: 40px 50px;
+  font-family: 'lexend deca';
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.extraBold {
+  font-weight: 800;
+  text-shadow: 0px 0px 20px silver;
 }
 
 .ring {
@@ -81,6 +99,9 @@
 
 #earth {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 63px;
   width: 63px;
   background-color: rgb(0, 175, 15);
@@ -94,6 +115,17 @@
   --d: calc(196px + 200px);
   width: var(--d);
   height: var(--d);
+}
+
+#moon {
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  background-color: rgb(124, 0, 196);
+  background-image: url(./../img/texture_mercury.png);
+  background-position: center;
+  border-radius: 50%;
+  border: 3px solid rgb(165, 165, 165);
 }
 
 #mars {

@@ -1,0 +1,10 @@
+.choice_wrapper {
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  color: var(--info-text-font-color);
+  border: 4px solid var(--info-text-border-color);
+  border-radius: 15px;
+  padding: 3px 5px;
+  margin: 20px;
+}
