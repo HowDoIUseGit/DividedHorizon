@@ -1,0 +1,13 @@
+.weather_API_container {
+  width: 100%;
+  height: calc(100vh - 70px);
+  background: linear-gradient(160deg, rgb(68, 68, 160) 7%, rgb(68, 68, 223) 19%, rgb(169, 235, 252) 65%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather_wrapper {
+
+}
+

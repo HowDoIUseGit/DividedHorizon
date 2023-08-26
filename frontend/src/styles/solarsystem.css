@@ -1,0 +1,179 @@
+.space_wrapper {
+  --info-text-border-color: rgb(132, 105, 255);
+  --info-text-font-color: rgb(233, 233, 233);
+}
+
+.ring {
+  position: absolute;
+  border: 2px dashed rgba(255, 255, 255, 0.75);
+  border-radius: 50%;
+}
+
+.info_text {
+  padding: 3px 5px;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 170px;
+  border: 4px solid var(--info-text-border-color);
+  border-radius: 10px;
+  color: var(--info-text-font-color);
+}
+
+.space_wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+  width: 100%;
+  background-color: #010313;
+}
+
+#sun {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 196px;
+  width: 196px;
+  background-color: rgb(255, 174, 0);
+  border-radius: 50%;
+  border: 4px solid rgb(206, 123, 0);
+  box-shadow: 0px 0px 20px rgb(253, 244, 163);
+}
+
+#mercury {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  background-color: rgb(255, 123, 0);
+  border-radius: 50%;
+  border: 3px solid rgb(168, 101, 1);
+}
+
+#ring_mercury {
+  --d: calc(196px + 100px);
+  width: var(--d);
+  height: var(--d);
+}
+
+#venus {
+  position: absolute;
+  height: 59px;
+  width: 59px;
+  background-color: rgb(196, 95, 0);
+  border-radius: 50%;
+  border: 3px solid rgb(143, 52, 0);
+}
+
+#ring_venus {
+  --d: calc(196px + 150px);
+  width: var(--d);
+  height: var(--d);
+}
+
+#earth {
+  position: absolute;
+  height: 63px;
+  width: 63px;
+  background-color: rgb(0, 175, 15);
+  border-radius: 50%;
+  border: 3px solid rgb(0, 74, 143);
+}
+
+#ring_earth {
+  --d: calc(196px + 200px);
+  width: var(--d);
+  height: var(--d);
+}
+
+#mars {
+  position: absolute;
+  height: 33px;
+  width: 33px;
+  background-color: rgb(196, 56, 0);
+  border-radius: 50%;
+  border: 3px solid rgb(143, 29, 0);
+}
+
+#ring_mars {
+  --d: calc(196px + 250px);
+  width: var(--d);
+  height: var(--d);
+}
+
+#jupiter {
+  position: absolute;
+  height: 69px;
+  width: 69px;
+  background-color: rgb(190, 182, 106);
+  border-radius: 50%;
+  border: 3px solid rgb(140, 141, 77);
+}
+
+#ring_jupiter {
+  --d: calc(196px + 300px);
+  width: var(--d);
+  height: var(--d);
+}
+
+#saturn {
+  position: absolute;
+  height: 57px;
+  width: 57px;
+  background-color: rgb(204, 158, 115);
+  border-radius: 50%;
+  border: 3px solid rgb(150, 108, 84);
+}
+
+#ring_saturn {
+  --d: calc(196px + 350px);
+  width: var(--d);
+  height: var(--d);
+}
+
+#uranus {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: rgb(0, 134, 196);
+  border-radius: 50%;
+  border: 3px solid rgb(0, 79, 143);
+}
+
+#ring_uranus {
+  --d: calc(196px + 400px);
+  width: var(--d);
+  height: var(--d);
+}
+
+#neptune {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  background-color: rgb(2, 63, 219);
+  border-radius: 50%;
+  border: 3px solid rgb(0, 20, 143);
+}
+
+#ring_neptune {
+  --d: calc(196px + 450px);
+  width: var(--d);
+  height: var(--d);
+}
+
+#pluto {
+  position: absolute;
+  height: 11px;
+  width: 11px;
+  background-color: rgb(236, 184, 136);
+  border-radius: 50%;
+  border: 3px solid rgb(175, 126, 98);
+}
+
+#ring_pluto {
+  --d: calc(196px + 500px);
+  width: var(--d);
+  height: var(--d);
+}

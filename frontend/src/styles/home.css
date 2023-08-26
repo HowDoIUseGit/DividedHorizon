@@ -1,0 +1,6 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 70px);
+  position: absolute;
+  top: 70px;
+}
